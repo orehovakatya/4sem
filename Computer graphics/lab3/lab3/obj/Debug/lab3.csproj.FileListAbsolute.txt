@@ -1,0 +1,9 @@
+D:\4семестр\Computer graphics\lab3\lab3\bin\Debug\lab3.exe.config
+D:\4семестр\Computer graphics\lab3\lab3\bin\Debug\lab3.exe
+D:\4семестр\Computer graphics\lab3\lab3\bin\Debug\lab3.pdb
+D:\4семестр\Computer graphics\lab3\lab3\obj\Debug\lab3.csprojResolveAssemblyReference.cache
+D:\4семестр\Computer graphics\lab3\lab3\obj\Debug\lab3.Form1.resources
+D:\4семестр\Computer graphics\lab3\lab3\obj\Debug\lab3.Properties.Resources.resources
+D:\4семестр\Computer graphics\lab3\lab3\obj\Debug\lab3.csproj.GenerateResource.Cache
+D:\4семестр\Computer graphics\lab3\lab3\obj\Debug\lab3.exe
+D:\4семестр\Computer graphics\lab3\lab3\obj\Debug\lab3.pdb
