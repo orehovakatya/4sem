@@ -1,7 +1,7 @@
-﻿  Edges.cpp
-  Model.cpp
+﻿  MyForm.cpp
   Points.cpp
+  Processor.cpp
   Создание кода...
-  Adge.obj : /DEBUG:FASTLINK не поддерживается, если присутствует управляемый код; выполняется перезапуск компоновки с /DEBUG:FULL
+  Action.obj : /DEBUG:FASTLINK не поддерживается, если присутствует управляемый код; выполняется перезапуск компоновки с /DEBUG:FULL
   ооп.vcxproj -> D:\4семестр\ооп\Debug\ооп.exe
   ооп.vcxproj -> D:\4семестр\ооп\Debug\ооп.pdb (Partial PDB)

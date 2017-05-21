@@ -1,6 +1,7 @@
 #include "MyForm.h"
 #include <Windows.h>
 using namespace  ооп;
+[STAThread]
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {
 	Application::EnableVisualStyles();

@@ -20,7 +20,7 @@ errors load_edges(edges& p, int cout_edges, STREAM* file)
 	ptr = (my_edge*)alloc_memory(cout_edges, sizeof(my_edge));
 	if (ptr == NULL)
 		return ERROR_MEMORY;
-	er = read_adges(ptr, cout_edges, file);
+	er = read_edges(ptr, cout_edges, file);
 	if (er != ERROR_NO)
 	{
 		clear_memory(ptr);

@@ -14,17 +14,18 @@ void draw_edge(My_drawing g, my_edge e, points p)
 }
 
 
-void clean_display(My_drawing g, Drawing_action& act)
+void clean_display(My_drawing g)
 {
-	System::Drawing::SolidBrush^ br = gcnew System::Drawing::SolidBrush(col::White);
-	g->FillRectangle(br, 0, 0, act.width, act.height);
+	//System::Drawing::SolidBrush^ br = gcnew System::Drawing::SolidBrush(col::White);
+	//g->FillRectangle(br, 0, 0, act.width, act.height);
+	g->Clear(col::White);
 }
 
-errors draw_model(const model& mod, My_drawing g, Drawing_action& act)
+errors draw_model(const model& mod, My_drawing g)
 {
 	if ((get_points_count(mod.p) <= 0) || (get_edges_count(mod.e) <= 0))
 		return ERROR_ZERO;
-	clean_display(g, act);//!
+	clean_display(g);
 	for (int i = 0; i < get_edges_count(mod.e); i++)
 	{
 		draw_edge(g, edges_by_index(mod.e, i), mod.p);

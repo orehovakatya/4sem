@@ -38,7 +38,7 @@ errors load_model(model& mod, char* file_name)
 		return er;
 	clear_model(mod);
 	mod = tmp;
-		return er;
+	return er;
 }
 errors load_model_stream(model& mod, STREAM* file)
 {
@@ -47,7 +47,6 @@ errors load_model_stream(model& mod, STREAM* file)
 	edges e;
 	int count_points;
 	int count_edges;
-	//get_counts(count_points, count_edges, file);
 	if ((er = get_counts(count_points, count_edges, file)) != ERROR_NO)
 		return er;
 	if ((er = load_points(p, count_points, file)) != ERROR_NO)

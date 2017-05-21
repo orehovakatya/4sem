@@ -7,7 +7,6 @@ struct model
 {
 	points p;
 	edges e;
-	//center
 };
 
 void set_model_points(model& mod, points p);

@@ -5,7 +5,7 @@
 
 STREAM* open_file(char*);
 void close_file(STREAM*);
-int read_adge(int* from, int* to, STREAM*);
+int read_edge(int* from, int* to, STREAM*);
 
 /*int main()
 {

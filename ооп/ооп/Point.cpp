@@ -18,11 +18,47 @@ errors read_point(my_point& p, STREAM* file)
 errors read_points(my_point* points_aray, int count_points, STREAM* file)
 {
 	errors er = ERROR_NO;
-	int i = 0;
-	while ((er == ERROR_NO)&&(i < count_points))
+	for (int i = 0; er == ERROR_NO && i < count_points; i++)
 	{
 		er = read_point(points_aray[i], file);
-		i++;
 	}
 	return er;
+}
+
+void set_point_by_name(my_point &point, int i, double value)
+{
+	switch (i) {
+
+	case X_coord:
+		point.x = value;
+		break;
+
+	case Y_coord:
+		point.y = value;
+		break;
+
+	case Z_coord:
+		point.z = value;
+		break;
+
+	default:
+		break;
+	}
+}
+
+double point_by_name(const my_point point, int i) {
+	switch (i) {
+
+	case X_coord:
+		return point.x;
+
+	case Y_coord:
+		return point.y;
+
+	case Z_coord:
+		return point.z;
+
+	default:
+		return 0;
+	}
 }

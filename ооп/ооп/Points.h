@@ -16,3 +16,4 @@ void clear_points(points& p);
 points init_points();
 int get_points_count(const points& p);
 my_point point_by_index(const points& p, int i);
+void set_point_by_index(points &points, const my_point &point, int index);

@@ -26,7 +26,6 @@ errors load_points(points& p, int cout_points, STREAM* file)
 		clear_memory(ptr);
 		return er;
 	}
-	//p.points_array = ptr;
 	set_points(p, ptr, cout_points);
 	return er;
 }
@@ -49,4 +48,10 @@ int get_points_count(const points& p)
 my_point point_by_index(const points& p, int i)
 {
 	return p.points_array[i];
+}
+void set_point_by_index(points &points, const my_point &point, int index)
+{
+	points.points_array[index].x = point.x;
+	points.points_array[index].y = point.y;
+	points.points_array[index].z = point.z;
 }

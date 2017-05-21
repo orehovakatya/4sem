@@ -1,5 +1,5 @@
 #pragma once
-#include "Adge.h"
+#include "Edge.h"
 #include "Memory.h"
 
 struct edges

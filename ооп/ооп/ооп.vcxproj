@@ -123,11 +123,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Adge.h" />
+    <ClInclude Include="Action.h" />
+    <ClInclude Include="Action_geometry.h" />
+    <ClInclude Include="Edge.h" />
     <ClInclude Include="Drawing.h" />
     <ClInclude Include="Edges.h" />
     <ClInclude Include="Error.h" />
     <ClInclude Include="file_working.h" />
+    <ClInclude Include="geometry.h" />
     <ClInclude Include="Memory.h" />
     <ClInclude Include="Model.h" />
     <ClInclude Include="MyForm.h">
@@ -135,17 +138,24 @@
     </ClInclude>
     <ClInclude Include="Point.h" />
     <ClInclude Include="Points.h" />
+    <ClInclude Include="Point_math.h" />
+    <ClInclude Include="Processor.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Adge.cpp" />
+    <ClCompile Include="Action.cpp" />
+    <ClCompile Include="Action_geometry.cpp" />
+    <ClCompile Include="Edge.cpp" />
     <ClCompile Include="Drawing.cpp" />
     <ClCompile Include="Edges.cpp" />
     <ClCompile Include="file_working.cpp" />
+    <ClCompile Include="geometry.cpp" />
     <ClCompile Include="Memory.cpp" />
     <ClCompile Include="Model.cpp" />
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="Points.cpp" />
+    <ClCompile Include="Point_math.cpp" />
+    <ClCompile Include="Processor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
