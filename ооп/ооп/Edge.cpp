@@ -9,7 +9,7 @@ void set_edge(my_edge& p, int from, int to)
 errors read_edge(my_edge& p, STREAM* file)
 {
 	int from, to;
-	if (read_edge(&from, &to, file) != 2)
+	if (fscanf(file, "%d-%d\n", &from, &to) != 2)
 		return ERROR_FILE;
 	set_edge(p, from, to);
 	return ERROR_NO;

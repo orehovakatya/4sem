@@ -1,7 +1,27 @@
-﻿  MyForm.cpp
+﻿  Action.cpp
+  Action_geometry.cpp
+  Edge.cpp
+  Drawing.cpp
+  Edges.cpp
+  file_working.cpp
+file_working.cpp(5): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+file_working.cpp(15): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1193): note:  см. объявление "fscanf"
+file_working.cpp(20): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1193): note:  см. объявление "fscanf"
+file_working.cpp(25): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1193): note:  см. объявление "fscanf"
+  geometry.cpp
+  Memory.cpp
+  Model.cpp
+  MyForm.cpp
+  Point.cpp
   Points.cpp
+  Point_math.cpp
   Processor.cpp
   Создание кода...
+d:\4sem\ооп\ооп\drawing.cpp(33): warning C4715: draw_model: значение возвращается не при всех путях выполнения
   Action.obj : /DEBUG:FASTLINK не поддерживается, если присутствует управляемый код; выполняется перезапуск компоновки с /DEBUG:FULL
-  ооп.vcxproj -> D:\4семестр\ооп\Debug\ооп.exe
-  ооп.vcxproj -> D:\4семестр\ооп\Debug\ооп.pdb (Partial PDB)
+  ооп.vcxproj -> D:\4sem\ооп\Debug\ооп.exe
+  ооп.vcxproj -> D:\4sem\ооп\Debug\ооп.pdb (Partial PDB)
