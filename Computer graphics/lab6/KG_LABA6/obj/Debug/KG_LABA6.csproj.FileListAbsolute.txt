@@ -1,0 +1,18 @@
+D:\bmstu_sem4\Computer_Graphics\KG_LABA6\KG_LABA6\bin\Debug\KG_LABA6.exe.config
+D:\bmstu_sem4\Computer_Graphics\KG_LABA6\KG_LABA6\bin\Debug\KG_LABA6.exe
+D:\bmstu_sem4\Computer_Graphics\KG_LABA6\KG_LABA6\bin\Debug\KG_LABA6.pdb
+D:\bmstu_sem4\Computer_Graphics\KG_LABA6\KG_LABA6\obj\Debug\KG_LABA6.csprojResolveAssemblyReference.cache
+D:\bmstu_sem4\Computer_Graphics\KG_LABA6\KG_LABA6\obj\Debug\KG_LABA6.Form1.resources
+D:\bmstu_sem4\Computer_Graphics\KG_LABA6\KG_LABA6\obj\Debug\KG_LABA6.Properties.Resources.resources
+D:\bmstu_sem4\Computer_Graphics\KG_LABA6\KG_LABA6\obj\Debug\KG_LABA6.csproj.GenerateResource.Cache
+D:\bmstu_sem4\Computer_Graphics\KG_LABA6\KG_LABA6\obj\Debug\KG_LABA6.exe
+D:\bmstu_sem4\Computer_Graphics\KG_LABA6\KG_LABA6\obj\Debug\KG_LABA6.pdb
+D:\4семестр\Computer graphics\KG_LABA6\KG_LABA6\bin\Debug\KG_LABA6.exe.config
+D:\4семестр\Computer graphics\KG_LABA6\KG_LABA6\obj\Debug\KG_LABA6.exe
+D:\4семестр\Computer graphics\KG_LABA6\KG_LABA6\obj\Debug\KG_LABA6.pdb
+D:\4семестр\Computer graphics\KG_LABA6\KG_LABA6\obj\Debug\KG_LABA6.csprojResolveAssemblyReference.cache
+D:\4семестр\Computer graphics\KG_LABA6\KG_LABA6\obj\Debug\KG_LABA6.Form1.resources
+D:\4семестр\Computer graphics\KG_LABA6\KG_LABA6\obj\Debug\KG_LABA6.Properties.Resources.resources
+D:\4семестр\Computer graphics\KG_LABA6\KG_LABA6\obj\Debug\KG_LABA6.csproj.GenerateResource.Cache
+D:\4семестр\Computer graphics\KG_LABA6\KG_LABA6\bin\Debug\KG_LABA6.exe
+D:\4семестр\Computer graphics\KG_LABA6\KG_LABA6\bin\Debug\KG_LABA6.pdb
